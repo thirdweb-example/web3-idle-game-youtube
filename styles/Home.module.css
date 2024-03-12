@@ -3,6 +3,20 @@
   max-width: 1440px;
   padding: 0 1rem;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+.main {
+  max-width: 1440px;
+  padding: 5rem 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
 }
 
 .gradientText0 {
@@ -85,6 +99,7 @@
   max-width: 440px;
   overflow: none;
   border: none;
+  padding: 1rem;
 }
 
 .cardText {
@@ -100,12 +115,12 @@
   border: none;
 }
 
-.card:hover,
+/* .card:hover,
 .card:focus,
 .card:active {
   background-color: #272c34;
   opacity: 80%;
-}
+} */
 
 .card h2 {
   margin: 0 0 0.75rem 0;
@@ -142,4 +157,130 @@
 }
 .logo img {
   filter: invert(1);
+}
+
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.navbarOptions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.navbarOptions p {
+  margin: 0;
+  font-size: 0.9 rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.navbarOptions Link {
+  margin: 0;
+  font-size: 0.9 rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.navbarLogoutButton {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.navbarLogoutButton:hover {
+  background-color: #ff6b6b;
+}
+
+.signinContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #131313;
+  padding: 2rem;
+  border-radius: 10px;
+  min-width: 500px;
+}
+.signinContainer input {
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #272c34;
+  color: white;
+}
+.submitButton {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  background-color: royalblue;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.workerContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  background-color: #131313;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 10px;
+}
+.workerContainer div {
+  margin: 0 1rem;
+}
+
+.businessContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #131313;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.nftCard {
+  background-color: #131313;
+  border-radius: 10px;
+  max-width: 440px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.nftCardButton {
+  width: 100% !important;
+  padding: 0.5rem !important;
+  border-radius: 0px 0px 5px 5px !important;
+  border: none !important;
+  background-color: royalblue !important;
+  color: white !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s !important;
+}
+.nftCardButton:hover {
+  background-color: #3b82f6 !important;
+}
+.nftCardButton:disabled {
+  background-color: #272c34 !important;
+  cursor: not-allowed !important;
 }
