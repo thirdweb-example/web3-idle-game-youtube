@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "@thirdweb-dev/engine": "^0.0.5",
-    "@thirdweb-dev/react": "^4",
-    "@thirdweb-dev/sdk": "^4",
+    "@thirdweb-dev/react": "^4.4.24",
+    "@thirdweb-dev/sdk": "^4.0.50",
     "ethers": "^5",
     "next": "^13",
     "react": "^18.2",
